@@ -1,0 +1,636 @@
+{
+  "business": {
+    "name": "Apex Painting",
+    "phone": "555-pai-r92",
+    "category": "painting",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  "design": {
+    "preset": {
+      "id": "painting-red-charge",
+      "categoryGroup": "painting",
+      "name": "Red Charge",
+      "recipeFile": "painting/red-charge.astro",
+      "colors": {
+        "primary": "#F59E0B",
+        "primaryDark": "#78350F",
+        "primaryLight": "#fde7c2",
+        "secondary": "#dd8e0a",
+        "accent": "#D946EF",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#F59E0B",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "painting/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Elevate Your Indianapolis Home",
+      "heroSubline": "Apex Painting transforms interiors and exteriors with precision and care. Serving Carmel, Fishers, and Noblesville with locally tailored solutions.",
+      "aboutTitle": "Crafting Beautiful Spaces Since 2012",
+      "aboutText": [
+        "Founded in Indianapolis, Apex Painting began with a simple mission: to deliver exceptional painting services that stand the test of Indiana's harsh climate. Over a decade later, we've perfected our techniques to address the unique challenges of Central Indiana homes.",
+        "We believe in meticulous preparation, premium materials, and artistry in every stroke. Our team treats each project as if it were their own home, ensuring flawless results that enhance your property's value and beauty.",
+        "As a proud member of the Indianapolis community, we support local suppliers and prioritize eco-friendly practices. From historic Meridian-Kessler homes to modern Carmel developments, we understand what makes Hoosier houses special."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Techniques",
+          "description": "Our methods account for Indianapolis' freeze-thaw cycles and humidity to prevent premature peeling and cracking."
+        },
+        {
+          "title": "Neighborhood Expertise",
+          "description": "We know the architectural nuances of Broad Ripple bungalows and Fishers' contemporary homes alike."
+        },
+        {
+          "title": "Premium Materials",
+          "description": "We use only high-grade paints formulated to withstand Midwest weather extremes."
+        },
+        {
+          "title": "Detail-Oriented Process",
+          "description": "From trim work to wall preparation, we never cut corners for lasting results."
+        }
+      ],
+      "ctaHeadline": "Ready for a Flawless Finish?",
+      "ctaSubline": "Schedule your free consultation today and discover the Apex difference."
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Breathe new life into your living spaces with our precision interior painting.",
+        "description": "Transform your Indianapolis home with interior painting designed for local lifestyles. Our team specializes in working with the plaster walls of historic Meridian-Kessler homes and the drywall of modern Carmel developments alike.\n\nWe address common Midwest issues like humidity-induced bubbling and temperature-related expansion cracks through thorough surface preparation. For families in Fishers' newer builds, we offer low-VOC options perfect for growing households. Every project includes detailed trim work and clean edges - no masking tape shortcuts.\n\nFrom refreshing a Noblesville living room to updating a Fountain Square loft, we help you select colors that complement both your architecture and natural light patterns.",
+        "process": [
+          "Step 1: Comprehensive surface evaluation and repair of cracks/imperfections",
+          "Step 2: Meticulous cleaning and priming for optimal paint adhesion",
+          "Step 3: Precision cutting-in and trim work with artisan brushes",
+          "Step 4: Multiple coats applied with professional equipment for even coverage"
+        ],
+        "benefits": [
+          "Enhanced indoor air quality with low-VOC options",
+          "Colors selected for your home's unique lighting",
+          "Protection against humidity-related damage",
+          "Increased home value through flawless finishes"
+        ],
+        "faq": [
+          {
+            "question": "How do you protect my furniture during painting?",
+            "answer": "We use premium canvas drop cloths and plastic sheeting, securing all items away from work areas. Fragile items receive special wrapping for added protection."
+          },
+          {
+            "question": "What paint brands do you recommend for Indianapolis homes?",
+            "answer": "We typically use Sherwin-Williams or Benjamin Moore products, chosen for their durability against Midwest temperature swings and humidity."
+          },
+          {
+            "question": "Can you match my existing trim color exactly?",
+            "answer": "Yes, we use professional color-matching technology to seamlessly blend new paint with existing finishes."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home's exterior against Indiana's harsh elements.",
+        "description": "Indianapolis' freeze-thaw cycles and summer storms demand exterior paint that goes beyond aesthetics. Our team specializes in preparing and protecting your home's siding, whether it's the original wood on a Broad Ripple bungalow or modern fiber cement in Carmel.\n\nWe start by addressing common Midwest issues like clay soil splashback staining and foundation cracks that can compromise paint integrity. Our pressure washing removes Indianapolis' pollen and pollution buildup, while specialized primers combat moisture penetration in humid summers.\n\nFor historic Irvington homes, we employ techniques that preserve architectural details while providing modern protection. Newer Fishers developments receive crisp, clean lines that enhance curb appeal. Every project includes thorough caulking and weatherproofing to extend your paint's lifespan.",
+        "process": [
+          "Step 1: Detailed inspection for weather damage and necessary repairs",
+          "Step 2: Gentle pressure washing with mold/mildew treatment",
+          "Step 3: Precision scraping and sanding of problem areas",
+          "Step 4: Application of premium weather-resistant paints with brush and spray techniques"
+        ],
+        "benefits": [
+          "Enhanced protection against Indianapolis' extreme seasons",
+          "Increased resistance to mold and mildew growth",
+          "Improved energy efficiency through proper sealing",
+          "Boosted curb appeal and property value"
+        ],
+        "faq": [
+          {
+            "question": "How often should an Indianapolis home be repainted?",
+            "answer": "Most homes need repainting every 5-7 years due to our climate. We'll assess your specific situation during our consultation."
+          },
+          {
+            "question": "Do you work around Indianapolis' unpredictable weather?",
+            "answer": "Yes, we monitor forecasts closely and schedule work during optimal conditions, with contingency plans for sudden storms."
+          },
+          {
+            "question": "Can you match my HOA's color requirements?",
+            "answer": "Absolutely. We're familiar with Carmel and Fishers community guidelines and can provide approved color options."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-refinishing",
+        "name": "Cabinet Refinishing",
+        "shortDescription": "Transform your kitchen without the cost of full replacement.",
+        "description": "Give your Indianapolis-area kitchen a fresh look while preserving its character with our cabinet refinishing services. We specialize in updating everything from the oak cabinets common in 1990s Fishers homes to the original built-ins found in Broad Ripple's historic properties.\n\nOur process begins with careful degreasing to remove years of cooking residue - particularly important in homes with open floor plans where kitchens see heavy use. We then repair common issues like humidity-swollen doors and worn edges before applying durable finishes that withstand daily use.\n\nFor Carmel's newer luxury kitchens, we offer modern finishes that complement stainless appliances. In Noblesville's older homes, we can replicate vintage paint techniques while adding contemporary protection. The result is a kitchen that feels brand new at a fraction of replacement cost.",
+        "process": [
+          "Step 1: Complete cabinet degreasing and hardware removal",
+          "Step 2: Repair of dents, scratches, and moisture damage",
+          "Step 3: Professional sanding for optimal paint adhesion",
+          "Step 4: Application of cabinet-grade finishes with spray technology"
+        ],
+        "benefits": [
+          "80% less expensive than full cabinet replacement",
+          "Minimal disruption to your household",
+          "Customizable finishes to match your evolving style",
+          "Increased home value with a updated kitchen"
+        ],
+        "faq": [
+          {
+            "question": "How long will my kitchen be unusable?",
+            "answer": "Most projects take 3-5 days. We work efficiently to minimize disruption and can often leave some cabinets accessible during the process."
+          },
+          {
+            "question": "Can you change the color of my cabinets completely?",
+            "answer": "Yes, we specialize in dramatic transformations from dark wood tones to light painted finishes or vice versa."
+          },
+          {
+            "question": "Will the finish hold up to daily use?",
+            "answer": "Our cabinet-grade finishes are formulated for high-traffic kitchens and include protective topcoats for added durability."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining",
+        "name": "Deck Staining",
+        "shortDescription": "Protect and enhance your outdoor living space against Indiana's elements.",
+        "description": "Indianapolis decks face punishing conditions - summer humidity promotes mold growth, while winter freeze-thaw cycles cause premature wear. Our deck staining service goes beyond cosmetic enhancement to provide essential protection for your outdoor investment.\n\nWe prepare each surface differently based on material and age. For newer composite decks in Carmel developments, we use specialized cleaners to prevent staining. Historic wood decks in Meridian-Kessler receive careful sanding to preserve their character while addressing weathering.\n\nOur premium semi-transparent stains allow wood grain to show through while blocking harmful UV rays. Solid stains provide maximum protection for older decks needing more coverage. Every project includes thorough sealing of railings and structural elements to prevent moisture damage common in our climate.",
+        "process": [
+          "Step 1: Thorough cleaning with mold/mildew treatment",
+          "Step 2: Inspection and repair of loose boards/nails",
+          "Step 3: Precision sanding of rough areas",
+          "Step 4: Application of premium stain with brush and spray techniques"
+        ],
+        "benefits": [
+          "Extended deck lifespan in Indianapolis' harsh climate",
+          "Reduced maintenance with premium protective finishes",
+          "Enhanced safety through secure railings and surfaces",
+          "Beautiful results that complement your home's exterior"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain my Indianapolis deck?",
+            "answer": "Most decks need refinishing every 2-3 years. We'll assess your specific wear patterns during our consultation."
+          },
+          {
+            "question": "Can you match my neighbor's deck color?",
+            "answer": "Yes, we maintain samples from major brands and can custom-blend to achieve your desired look."
+          },
+          {
+            "question": "Will staining prevent wood splintering?",
+            "answer": "While staining won't repair existing splinters, our sanding process smooths rough areas and the sealant helps prevent future splintering."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Flawless solutions for Indianapolis' common wall imperfections.",
+        "description": "Midwest temperature fluctuations and settling foundations create unique drywall challenges in Indianapolis homes. Our repair services address everything from hairline cracks in Fountain Square lofts to larger damage in Carmel's newer builds.\n\nWe understand how Indianapolis' clay soil contributes to foundation movement that stresses drywall seams. Our repairs account for these seasonal shifts using flexible compounds that move with your home. For humidity-induced bubbles common in Fishers basements, we employ moisture-resistant materials.\n\nEvery repair blends seamlessly with your existing walls through expert texturing and feathering techniques. We match all common finishes from the orange peel of 1980s ranch homes to the smooth walls of contemporary builds. The result is damage that disappears completely, preserving your home's clean lines.",
+        "process": [
+          "Step 1: Assessment of damage cause and extent",
+          "Step 2: Removal of compromised material and preparation of clean edges",
+          "Step 3: Application of appropriate compounds with proper drying time",
+          "Step 4: Sanding, texturing, and painting for invisible repairs"
+        ],
+        "benefits": [
+          "Solutions tailored to Indianapolis' climate challenges",
+          "Seamless blending with existing wall textures",
+          "Use of flexible compounds that accommodate seasonal movement",
+          "Complete restoration of your wall's integrity"
+        ],
+        "faq": [
+          {
+            "question": "Why do cracks keep reappearing after DIY repairs?",
+            "answer": "Most store-bought compounds can't handle Indianapolis' temperature swings. We use professional-grade flexible materials that move with your home."
+          },
+          {
+            "question": "Can you fix water-damaged drywall permanently?",
+            "answer": "Yes, after addressing the moisture source, we replace damaged areas with mold-resistant drywall and appropriate sealants."
+          },
+          {
+            "question": "Will the repair be noticeable after painting?",
+            "answer": "Our feathering techniques and texture matching ensure repairs disappear completely into your existing wall surface."
+          }
+        ]
+      },
+      {
+        "slug": "popcorn-ceiling-removal",
+        "name": "Popcorn Ceiling Removal",
+        "shortDescription": "Modernize your space by eliminating outdated textured ceilings.",
+        "description": "Many Indianapolis homes built between 1960s-1980s feature popcorn ceilings that date interiors and collect dust. Our careful removal process transforms these spaces while addressing any asbestos concerns common in older properties.\n\nWe begin by testing materials in pre-1980 homes, as asbestos was commonly used in these textures. For positive results, we implement full containment procedures meeting Indiana regulations. In newer homes, we employ efficient dry scraping methods that minimize mess.\n\nThe removal reveals smoother ceilings that brighten rooms and increase perceived height - particularly valuable in ranch-style homes common in Broad Ripple. We finish with a skim coat and primer, creating a perfect canvas for your new paint. The result is a contemporary look that modernizes your entire space.",
+        "process": [
+          "Step 1: Testing for asbestos in pre-1980 homes",
+          "Step 2: Establishment of containment area if needed",
+          "Step 3: Careful removal using appropriate wet or dry methods",
+          "Step 4: Smooth finishing with joint compound and primer"
+        ],
+        "benefits": [
+          "Elimination of dust-catching texture",
+          "Modernized appearance that updates your entire home",
+          "Increased light reflection for brighter rooms",
+          "Professional handling of any asbestos concerns"
+        ],
+        "faq": [
+          {
+            "question": "How messy is the removal process?",
+            "answer": "We use plastic sheeting and negative air machines to contain dust. Most clients are surprised by how clean the worksite remains."
+          },
+          {
+            "question": "Can you remove texture from just one room?",
+            "answer": "Yes, we can blend the transition between rooms so the change appears intentional."
+          },
+          {
+            "question": "Will removal damage my ceiling?",
+            "answer": "Our gentle techniques preserve the underlying drywall, leaving a surface ready for finishing."
+          }
+        ]
+      },
+      {
+        "slug": "color-consultation",
+        "name": "Color Consultation",
+        "shortDescription": "Expert guidance selecting perfect hues for your Indianapolis home.",
+        "description": "Choosing colors for your Indianapolis property involves more than personal preference - it requires understanding how our unique light quality, architecture, and climate affect color perception. Our consultations help homeowners navigate these factors for results they'll love for years.\n\nWe consider how northern light in Carmel homes renders colors differently than southern exposure in Fountain Square properties. For historic districts like Irvington, we recommend period-appropriate palettes that meet preservation guidelines. Modern Fishers developments benefit from contemporary schemes that enhance clean architectural lines.\n\nOur process goes beyond swatches to include large samples viewed at different times of day. We account for how Indianapolis' gray winters and golden summer light affect color warmth. The result is a customized palette that makes your home feel cohesive, intentional, and perfectly suited to its environment.",
+        "process": [
+          "Step 1: Assessment of your home's light sources and architectural style",
+          "Step 2: Discussion of lifestyle needs and aesthetic preferences",
+          "Step 3: Creation of customized palette options",
+          "Step 4: Large sample application for real-world evaluation"
+        ],
+        "benefits": [
+          "Avoid costly color mistakes",
+          "Cohesive whole-home color planning",
+          "Expertise in neighborhood-appropriate palettes",
+          "Confidence in your final selections"
+        ],
+        "faq": [
+          {
+            "question": "Do you help select exterior colors for HOA approval?",
+            "answer": "Yes, we're familiar with Carmel and Fishers community guidelines and can provide pre-approved options that meet your aesthetic goals."
+          },
+          {
+            "question": "Can you help choose colors to make my home feel larger?",
+            "answer": "Absolutely. We employ proven techniques using light and color to enhance spatial perception."
+          },
+          {
+            "question": "What if I don't like the colors we choose?",
+            "answer": "We refine selections until you're completely confident, using large samples to eliminate surprises."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Megan T.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "Apex transformed our 1920s Meridian-Kessler home with period-appropriate colors that still feel fresh. They repaired our plaster walls perfectly and the finish has held up beautifully through two Indianapolis winters already.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Exterior Painting",
+        "text": "Our Carmel home's cedar siding looked tired after 8 years. Apex not only made it look brand new, but their special primer has prevented any bleed-through from the knots. The attention to detail on our trim work was exceptional.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lisa K.",
+        "rating": 5,
+        "service": "Cabinet Refinishing",
+        "text": "Instead of replacing our 1990s oak cabinets in Fishers, Apex refinished them in a beautiful gray-green that makes our whole kitchen feel updated. They worked around our schedule and left the space spotless.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "David P.",
+        "rating": 5,
+        "service": "Deck Staining",
+        "text": "After two failed DIY attempts to stain our Broad Ripple deck, Apex made it look professional. Their prep work removed all the old peeling stain, and the new color has lasted through heavy use and Indianapolis weather.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Sarah L.",
+        "rating": 5,
+        "service": "Popcorn Ceiling Removal",
+        "text": "Removing the popcorn from our 1970s ranch home's ceilings made such a difference! Apex contained the dust perfectly and the smooth finish makes our rooms feel taller and brighter. Worth every penny.",
+        "date": "2024-08-03"
+      },
+      {
+        "name": "Thomas W.",
+        "rating": 5,
+        "service": "Color Consultation",
+        "text": "As first-time homeowners in Noblesville, we were overwhelmed by paint choices. Apex's consultant helped us select a whole-house palette that flows beautifully and complements our historic home's character.",
+        "date": "2024-06-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Indianapolis Painting Contractors | Apex Painting",
+        "description": "Premium painting services for Carmel, Fishers & Noblesville homes. Climate-adapted techniques for lasting beauty in Indianapolis' harsh weather."
+      },
+      "about": {
+        "title": "About Apex Painting | Indianapolis Painters",
+        "description": "Learn about our Indianapolis-based team's commitment to quality painting tailored for Central Indiana homes and climate challenges."
+      },
+      "services": {
+        "title": "Painting Services in Indianapolis | Apex",
+        "description": "Comprehensive interior and exterior painting solutions designed specifically for Indianapolis-area homes and their unique needs."
+      },
+      "contact": {
+        "title": "Contact Apex Painting | Indianapolis",
+        "description": "Schedule your free painting consultation with Carmel, Fishers and Noblesville's trusted painting professionals."
+      },
+      "reviews": {
+        "title": "Apex Painting Reviews | Indianapolis",
+        "description": "See what Indianapolis homeowners say about their experiences with Apex Painting's premium residential services."
+      },
+      "service-areas": {
+        "title": "Areas We Serve | Apex Painting IN",
+        "description": "Painting services for Carmel, Fishers, Noblesville and surrounding Indianapolis communities. Local experts for your neighborhood."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Carmel",
+        "slug": "carmel-in",
+        "state": "IN",
+        "content": "Apex Painting proudly serves the upscale neighborhoods of Carmel, IN, where homes built from the 1980s to the 2000s showcase timeless architectural styles. Our expert team specializes in exterior and interior painting, ensuring your home maintains its curb appeal despite the harsh winters with snow and ice. Whether refreshing your home's exterior to withstand the elements or updating interiors for a modern look, we deliver precision and quality.",
+        "localContext": "Carmel is known for its upscale developments, roundabouts, and vibrant arts district.",
+        "nearbyAreas": [
+          "Fishers",
+          "Noblesville",
+          "Westfield"
+        ]
+      },
+      {
+        "city": "Fishers",
+        "slug": "fishers-in",
+        "state": "IN",
+        "content": "Fishers, IN, is a rapidly growing community with beautifully planned neighborhoods from the 1990s to the 2020s. At Apex Painting, we understand the unique needs of newer homes, offering durable exterior coatings to protect against cold winters with snow and ice. Our interior services help homeowners personalize their spaces with modern color palettes and finishes that reflect Fishers' contemporary vibe.",
+        "localContext": "Fishers features master-planned communities, top-rated schools, and a thriving business district.",
+        "nearbyAreas": [
+          "Carmel",
+          "Noblesville",
+          "Geist"
+        ]
+      },
+      {
+        "city": "Noblesville",
+        "slug": "noblesville-in",
+        "state": "IN",
+        "content": "Noblesville, IN, blends historic charm with modern living, especially in the iconic Courthouse Square area. Apex Painting specializes in preserving the character of older homes while providing weather-resistant exterior solutions for the cold winters with snow and ice. From historic restorations to modern updates, our team ensures every project honors Noblesville's rich heritage.",
+        "localContext": "Noblesville is home to historic architecture, the White River, and a lively downtown scene.",
+        "nearbyAreas": [
+          "Carmel",
+          "Fishers",
+          "Westfield"
+        ]
+      },
+      {
+        "city": "Westfield",
+        "slug": "westfield-in",
+        "state": "IN",
+        "content": "Westfield, IN, is a family-friendly city with a mix of historic and newer homes. Apex Painting provides expert services to enhance and protect your property, whether it's a charming older home or a modern build. Our exterior paints are formulated to endure cold winters with snow and ice, while our interior services bring warmth and style to your living spaces.",
+        "localContext": "Westfield is known for its sports parks, growing downtown, and excellent schools.",
+        "nearbyAreas": [
+          "Carmel",
+          "Noblesville",
+          "Fishers"
+        ]
+      },
+      {
+        "city": "Zionsville",
+        "slug": "zionsville-in",
+        "state": "IN",
+        "content": "Zionsville, IN, boasts a picturesque downtown and elegant homes that demand top-tier painting services. Apex Painting delivers meticulous craftsmanship to maintain the beauty of Zionsville's properties, offering durable exterior solutions for cold winters with snow and ice. Our interior services cater to both classic and contemporary tastes, ensuring your home reflects your unique style.",
+        "localContext": "Zionsville features brick-paved streets, boutique shops, and a strong sense of community.",
+        "nearbyAreas": [
+          "Carmel",
+          "Whitestown",
+          "Lebanon"
+        ]
+      },
+      {
+        "city": "Greenwood",
+        "slug": "greenwood-in",
+        "state": "IN",
+        "content": "Greenwood, IN, offers a mix of suburban comfort and accessibility to Indianapolis. Apex Painting helps homeowners protect and beautify their properties with high-quality exterior paints designed for cold winters with snow and ice. Our interior services transform living spaces with fresh, modern finishes that elevate your home's appeal.",
+        "localContext": "Greenwood is home to the Greenwood Park Mall, parks, and a growing dining scene.",
+        "nearbyAreas": [
+          "Indianapolis",
+          "Franklin",
+          "Whiteland"
+        ]
+      },
+      {
+        "city": "Avon",
+        "slug": "avon-in",
+        "state": "IN",
+        "content": "Avon, IN, is a thriving suburb with a variety of residential styles, from traditional to modern. Apex Painting provides expert exterior and interior services to enhance your home's durability and aesthetics. Our weather-resistant coatings are ideal for Avon's cold winters with snow and ice, ensuring long-lasting protection and beauty.",
+        "localContext": "Avon is known for its excellent schools, shopping centers, and community events.",
+        "nearbyAreas": [
+          "Plainfield",
+          "Brownsburg",
+          "Danville"
+        ]
+      },
+      {
+        "city": "Brownsburg",
+        "slug": "brownsburg-in",
+        "state": "IN",
+        "content": "Brownsburg, IN, combines small-town charm with modern amenities, making it a desirable place to live. Apex Painting offers tailored solutions for Brownsburg homes, from exterior protection against cold winters with snow and ice to interior updates that reflect current trends. Our team is committed to delivering flawless results that enhance your home's value.",
+        "localContext": "Brownsburg features a historic downtown, motorsports culture, and family-friendly neighborhoods.",
+        "nearbyAreas": [
+          "Avon",
+          "Plainfield",
+          "Pittsboro"
+        ]
+      },
+      {
+        "city": "Plainfield",
+        "slug": "plainfield-in",
+        "state": "IN",
+        "content": "Plainfield, IN, is a welcoming community with a range of home styles and excellent schools. Apex Painting provides professional painting services to keep your home looking its best year-round. Our exterior solutions are built to withstand cold winters with snow and ice, while our interior work brings new life to your living spaces.",
+        "localContext": "Plainfield is home to the Indianapolis International Airport, parks, and shopping districts.",
+        "nearbyAreas": [
+          "Avon",
+          "Brownsburg",
+          "Mooresville"
+        ]
+      },
+      {
+        "city": "Geist",
+        "slug": "geist-in",
+        "state": "IN",
+        "content": "Geist, IN, is a lakeside community known for its luxury homes and scenic views. Apex Painting specializes in high-end exterior and interior services that protect and beautify Geist properties. Our durable coatings are designed to handle cold winters with snow and ice, ensuring your home remains stunning in every season.",
+        "localContext": "Geist offers waterfront living, upscale neighborhoods, and outdoor recreational opportunities.",
+        "nearbyAreas": [
+          "Fishers",
+          "Noblesville",
+          "Lawrence"
+        ]
+      },
+      {
+        "city": "Lawrence",
+        "slug": "lawrence-in",
+        "state": "IN",
+        "content": "Lawrence, IN, is a diverse community with a mix of historic and newer homes. Apex Painting provides reliable painting services to enhance your home's durability and style. Our exterior solutions are formulated for cold winters with snow and ice, while our interior updates create inviting, personalized spaces.",
+        "localContext": "Lawrence features Fort Benjamin Harrison, parks, and a strong local business scene.",
+        "nearbyAreas": [
+          "Fishers",
+          "Geist",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Mooresville",
+        "slug": "mooresville-in",
+        "state": "IN",
+        "content": "Mooresville, IN, is a charming town with a rich history and close-knit community. Apex Painting offers expert services to preserve and update Mooresville homes, from historic restorations to modern makeovers. Our exterior paints withstand cold winters with snow and ice, while our interior work adds character and comfort to your home.",
+        "localContext": "Mooresville is known for its historic downtown, antique shops, and friendly atmosphere.",
+        "nearbyAreas": [
+          "Plainfield",
+          "Martinsville",
+          "Camby"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "cabinet-refinishing": "/images/service-cabinet-refinishing.webp",
+      "deck-staining": "/images/service-deck-staining.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "popcorn-ceiling-removal": "/images/service-popcorn-ceiling-removal.webp",
+      "color-consultation": "/images/service-color-consultation.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-refinishing": {
+        "src": "/images/service-cabinet-refinishing.webp",
+        "srcset": "/images/service-cabinet-refinishing-400w.webp 400w, /images/service-cabinet-refinishing-800w.webp 800w, /images/service-cabinet-refinishing-1200w.webp 1200w, /images/service-cabinet-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining": {
+        "src": "/images/service-deck-staining.webp",
+        "srcset": "/images/service-deck-staining-400w.webp 400w, /images/service-deck-staining-800w.webp 800w, /images/service-deck-staining-1200w.webp 1200w, /images/service-deck-staining.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "popcorn-ceiling-removal": {
+        "src": "/images/service-popcorn-ceiling-removal.webp",
+        "srcset": "/images/service-popcorn-ceiling-removal-400w.webp 400w, /images/service-popcorn-ceiling-removal-800w.webp 800w, /images/service-popcorn-ceiling-removal-1200w.webp 1200w, /images/service-popcorn-ceiling-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "color-consultation": {
+        "src": "/images/service-color-consultation.webp",
+        "srcset": "/images/service-color-consultation-400w.webp 400w, /images/service-color-consultation-800w.webp 800w, /images/service-color-consultation-1200w.webp 1200w, /images/service-color-consultation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
